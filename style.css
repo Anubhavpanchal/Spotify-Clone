@@ -475,6 +475,18 @@ a {
     #hide2 {
         display: none; /* Hide the explore premium button */
     }
+    .sticky-nav-icons{
+        color: #000;
+    }
+}
+@media (max-width: 850px) {
+
+    .control{
+        display: none;
+    }
+    .album-details{
+        display: none;
+    }
 }
 
 /* Add styles for the sidebar toggle button */
